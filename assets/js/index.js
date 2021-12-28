@@ -1,10 +1,10 @@
 $(function() {
   // 调用 gitUserInfo 获取用户基本信息
-  gitUserInfo();
+  getUserInfo();
 });
 
 // 获取用户的基本信息
-function gitUserInfo() {
+function getUserInfo() {
   $.ajax({
     method: 'GET',
     url: '/my/userinfo',
